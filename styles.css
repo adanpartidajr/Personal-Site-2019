@@ -1,0 +1,20 @@
+
+/*Jumbotron*/
+
+.jumbotron-txt {
+text-align: center;
+}
+
+/*Footer Area*/
+
+.contact-btn:hover {
+/*insert function to transform by scaling w/ factor of 1.25*/
+}
+
+.contact-me {
+	text-align: center;
+}
+
+.bottom-container {
+	text-align: center;
+}
