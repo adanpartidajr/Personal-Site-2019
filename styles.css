@@ -1,14 +1,96 @@
+/*Navbar*/
 
 /*Jumbotron*/
 
 .jumbotron-txt {
-text-align: center;
+	text-align: center;
+}
+
+/*Carousel*/
+
+#carousel {
+	text-align: center;
+	background: linear-gradient(to top right, #6d3580 0%, #de4383 100%);
+	color: #fff;
+  }
+  
+  .carousel-image {
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+  }
+  
+  .carousel-item {
+	padding: 7% 15%;
+  }
+
+
+  /* Features */
+
+#features {
+	padding: 7% 15%;
+	background-color: #fff;
+	position: relative;
+	z-index: 1;
+  }
+  
+  .feature-box {
+	text-align: center;
+	padding: 5%;
+  }
+  
+  .fa-raspberry-pi {
+	color: #de4383;
+	margin-bottom: 1rem;
+	size: 3rem;
+  }
+  
+  .fa-raspberry-pi:hover {
+	color: #6d3580;
+  }
+  
+  .fa-python {
+	color:#de4383;
+	margin-bottom: 1rem;
+  }
+  
+  .fa-python:hover {
+	color: #6d3580;
+  }
+  
+  .fa-file-code {
+	color: #de4383;
+	margin-bottom: 1rem;
+  }
+  
+  .fa-file-code:hover {
+	color: #6d3580;
+  }
+
+/*Card Deck*/
+
+#cardstyle {
+	width: 80%;
+}
+
+.card-group {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 /*Footer Area*/
 
+.linkedin-link {
+	margin-right: 10px;
+}
+
+.contact-btn {
+	margin-bottom: 1rem;
+	transition: transform .8s;
+}
+
 .contact-btn:hover {
-/*insert function to transform by scaling w/ factor of 1.25*/
+	transform: rotateX(360deg);
 }
 
 .contact-me {
@@ -16,5 +98,11 @@ text-align: center;
 }
 
 .bottom-container {
+	color: #fff;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	width: 100%;
 	text-align: center;
+	background-color: #6d3580; /* For browsers that do not support gradients */
+  	background-image: linear-gradient(#6d3580, #de4383);
 }
